@@ -27,8 +27,8 @@ int main()
     cout << "1- Cadastro Aluno(a).." << endl;
     cout << "2- Cadastro Empresa..." << endl;
     cout << "3- Lista de Formados.." << endl;
-    cout << "4- Lista Estagiário..." << endl;
-    cout << "5- Gráfico para ver as areas " << endl;
+    cout << "4- Lista EstagiÃ¡rio..." << endl;
+    cout << "5- GrÃ¡fico para ver as areas " << endl;
     cin >> a;
 
     switch (a){
@@ -64,7 +64,7 @@ void  CadastroEmpresa(){
     file = fopen("C:\\Users\\Samuel\\Desktop\\Empresa.txt","r+");
 
     if(file == NULL){
-        printf("Impossível abrir o arquivo.");
+        printf("ImpossÃ­vel abrir o arquivo.");
         exit(0);
     } else{
 
@@ -77,6 +77,6 @@ void  CadastroEmpresa(){
            cout << "Deseja continuar:[s/n]" << endl;
            cin >> resp;
         }while(resp == 's');
-        fclose;
+       
     }
 }
